@@ -6,15 +6,19 @@ namespace _1_CSharpReview
     {
         static void Main(string[] args)
         {   
-            // Create vars declaration
+            // Create implicitly typed vars
             var number = 4;
             var greeting = "Hello";
+
+            // Create explicitly typed vars
+            string salutation = "Hi";
 
             // Display and manipulate vars
             Console.WriteLine(number);
             Console.WriteLine(greeting);
             Console.WriteLine(number + 2);
             Console.WriteLine(12 - number);
+            Console.WriteLine(salutation);
 
             // Re-assign value to var assignment
             number = 10;
