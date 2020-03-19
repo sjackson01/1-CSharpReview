@@ -31,6 +31,15 @@ namespace _1_CSharpReview
             Console.WriteLine(true.GetType());      // System.Boolean
             Console.WriteLine('z'.GetType());       // System.Char
 
+            //Create a new random number generator. 
+            Random generator = new Random();
+            // Generate a floating-point number between 0-1
+            double randomNumber = generator.NextDouble();
+            // Round the number to a single decimal place. 
+            double roundedNumber = Math.Round(randomNumber, 1);
+            // Print the rounded number.
+            System.Console.WriteLine(roundedNumber);
+
             Console.ReadLine();
         }
     }
